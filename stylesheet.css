@@ -1,0 +1,113 @@
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+body{
+
+    font-family: 'Amatic SC', cursive;
+}
+
+.header{
+text-align:center;
+color:white;
+background-color: blueviolet;
+font-size: 100px;
+padding-top:15px;
+padding-bottom: 20px;
+}
+.layout{
+    font-size: 50px;
+}
+.navbar{
+display:flex;
+background-color: palevioletred;
+}
+.navbar a{
+    padding:10px 15px;
+    font-size: 26px;
+    text-align:center;
+    color:white;
+}
+.navbar a:hover{
+    background-color: white;
+    color:black;
+}
+.row{
+    display:flex;
+    flex-wrap:wrap;
+}
+.link{
+    margin-bottom: 50px;
+    font-size:27px;
+}
+
+.side{
+flex:30%;
+padding:20px;
+background-color: bisque;
+font-size: 25px;
+}
+.my-img{
+    display: inline-block;
+    width:200px;
+    height:300px;
+    border:3px solid brown; 
+    margin-left: 30px;;
+
+}
+
+.main{
+    flex:70%;
+background-color: white;
+padding: 20px;
+font-size: 30px;
+}
+.first-song{
+    margin-left:200px;
+    width:250px;
+    height:350px;
+
+}
+.second-song{
+    width:250px;
+    height:300px;
+    object-fit: cover;
+    margin-left: 210px;
+    margin-top: 20px;
+}
+.third-song{
+    margin-top:20px;
+    margin-left:210px;
+    width:250px;
+    height:300px;
+}
+.fourth-song{
+    margin-top: 20px;
+    margin-left: 210px;
+    width:250px;
+    height:300px;
+}
+.fifth-song{
+    margin-top: 20px;
+    margin-left: 210px;
+    width: 250px;
+    height: 300px;
+}
+.footer{
+    background-color: black;
+    height:100px;
+}
+.footer-p{
+    color:white;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+@media screen and(max-width:700px){
+    .row , .navbar{
+        flex-direction: column;
+    }
+}
